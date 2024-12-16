@@ -1,6 +1,5 @@
 import type { Route } from "./+types/home";
 import Login from "~/componentes/Login";
-import "/app/app.css";
 import { Routes } from "react-router";
 
 

@@ -3,7 +3,7 @@ module.exports = {
   mode: 'jit',
   content: [
     '../componentes//*.{js,ts,jsx,tsx,mdx}',
-    '/app//*.{js,ts,jsx,tsx,mdx}',
+    "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {

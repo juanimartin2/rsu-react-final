@@ -23,7 +23,6 @@ function Login() {
       </div>
       
     </div>
-    <Footer />
     </>
   )
 }

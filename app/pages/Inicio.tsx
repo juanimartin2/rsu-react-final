@@ -1,14 +1,12 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from '../componentes/Navbar'
+import Footer from '../componentes/Footer'
 
 function inicio() {
   return (
     <>
-    <Navbar />
     <div className='flexCenter'>
       <h1>PAGINA INICIOOOOOO</h1>
     </div>
-    <Footer />
     </>
   )
 }

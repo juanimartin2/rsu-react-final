@@ -1,11 +1,13 @@
+import { Outlet } from "react-router";
 import type { Route } from "./+types/home";
-import Login from "~/componentes/Login";
-import { Routes } from "react-router";
+import Login from "~/pages/Login";
+
+
 
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "RSU App" },
+    { title: "SiRSU App" },
     { name: "description", content: "Bienvenido a SiRSU!" },
   ];
 }

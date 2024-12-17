@@ -38,12 +38,20 @@
     @apply px-6 lg:px-20 3xl:px-0;
   }
 
+  .ViewPort {
+    @apply h-screen w-screen;
+  }
+
   .flexCenter {
     @apply flex items-center justify-center;
   }
 
   .flexBetween {
     @apply flex items-center justify-between;
+  }
+
+  .flexSpaceAround {
+    @apply flex items-center justify-around;
   }
 
   .flexStart {
@@ -53,6 +61,7 @@
   .flexEnd {
     @apply flex items-center justify-end;
   }
+
 
   /* FUENTES */
   .regular-64 {

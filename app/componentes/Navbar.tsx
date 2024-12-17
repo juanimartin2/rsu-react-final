@@ -1,36 +1,34 @@
 
-import { NAV_LINKS } from "constantes"
 import { Link } from "react-router"
 import Button from "./button"
 import Image from "./Image"
+import logout from "/log-out.svg"
 import logo from "/logo2-ucc.svg"
+import user from "/user-avatar.svg"
 
 
 function Navbar() {
   return (
-    <nav className="flexBetween max-container
-    padding-container relative z-30 py-5">
-     <link href="/">
-      <Image src={logo} alt={logo}  width={24} height={24}/>
-     </link> 
-
-     <ul className="hidden h-full gap-12 lg:flex">
-        {NAV_LINKS.map((link) => (
-          <Link to={link.href} key={link.key} 
-          className="regular-16 text-gray-50 flexCenter cursor-pointer 
-          pb-1.5 transition-all hover:font-bold">
-            {link.label}
+    <nav className="container">
+      <div className="flexBetween p-2 rounded-lg shadow-xl">
+        <div className="px-12">
+          <Link to="../">
+          <Image src={logout} alt={logout}  width={35} height={35}/>
           </Link>
-        ))}
-      </ul> 
-
-      <div className="lg:flexCenter hidden">
-        <Button 
-        type={"button"}
-        title={"AAAA"}
-        icon="/logo2-ucc.svg"
-        variant={"btn_black"}
-        />
+        </div>
+          <Link to="/">
+            <Image src={logo} alt={logo}  width={35} height={35}/>
+          </Link>
+        <div className="lg:flexCenter hidden">
+          <Link to="/">
+            <Button
+              type={"button"}
+              title={"UsuActivo"}
+              icon={user}
+              variant={"btn_black"}
+            />
+          </Link>
+        </div>
       </div>
 
     </nav>

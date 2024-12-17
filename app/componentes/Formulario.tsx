@@ -6,7 +6,7 @@ const boton = {Button};
 
 function Formulario() {
   return (
-    <form className="flexCenter flex-col gap-3 p-6" id='login'>
+    <form className="flexCenter flex-col gap-3 p-10" id='login'>
         <label>
         <h3>Usuario</h3>
           <input 
@@ -24,16 +24,15 @@ function Formulario() {
           name="clave" 
           />
         </label>
-        <label>
-          <Link to={"/inicio"}>
+          <Link to="/inicio">
             <Button
-              type={"button"}
+              type={"submit"}
               title={"Ingresar"}
               icon="/logo2-ucc.svg"
               variant={"btn_green"}
             />
           </Link>
-        </label>
+
     </form>
   )
 }

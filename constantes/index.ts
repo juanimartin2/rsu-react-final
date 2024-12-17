@@ -1,19 +1,11 @@
-// RUTEO
-export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+
+  // MENUS SIDENAV
+  export const Menus = [
+    { title: 'Crear Usuario', label: 'crear_usu', src:"user-add" },
+    { title: 'Editar Usuarios', label: 'editar_usu', src:"users" },
+    { title: 'Editar Actividades', label: 'editar_act', src:"folder-edit" },
   ];
   
-  // CAMP SECTION
-  export const PEOPLE_URL = [
-    '/person-1.png',
-    '/person-2.png',
-    '/person-3.png',
-    '/person-4.png',
-  ];
   
   // FEATURES SECTION
   export const FEATURES = [

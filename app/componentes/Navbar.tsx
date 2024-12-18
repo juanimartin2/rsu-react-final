@@ -10,7 +10,7 @@ import user from "/user-avatar.svg"
 function Navbar() {
   return (
     <nav className="container">
-      <div className="flexBetween p-2 rounded-lg shadow-xl">
+      <div className="flexBetween rounded-lg shadow-xl">
         <div className="px-12">
           <Link to="../">
           <Image src={logout} alt={logout}  width={35} height={35}/>
@@ -19,7 +19,7 @@ function Navbar() {
           <Link to="/">
             <Image src={logo} alt={logo}  width={35} height={35}/>
           </Link>
-        <div className="lg:flexCenter hidden">
+        <div className="lg:flexCenter hidden px-10">
           <Link to="/">
             <Button
               type={"button"}

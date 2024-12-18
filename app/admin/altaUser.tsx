@@ -1,9 +1,7 @@
 
 function altaUser() {
   return (
-    <div className="ViewPort">
-
-    </div>
+    <div> ALTA LUZU!!!</div>
   )
 }
 

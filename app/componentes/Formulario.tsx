@@ -26,7 +26,7 @@ function Formulario() {
         </label>
           <Link to="/inicio">
             <Button
-              type={"submit"}
+              type={"button"}
               title={"Ingresar"}
               icon="/logo2-ucc.svg"
               variant={"btn_green"}

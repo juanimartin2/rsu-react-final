@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router'
+import { Link } from 'react-router'
+import { Outlet } from 'react-router'
 import Image from '~/componentes/Image'
 import logo from '/logo2-ucc.svg'
 import addUser from '/user-add.svg'
@@ -15,19 +16,14 @@ function layout() {
         <div className="flex">
 
             {/* SIDEBAR */}
-            <div className='w-1/6 h-screen pt-8 gap-3 bg-black'>
+            <div className='w-1/6 h-screen pt-8 gap-3 bg-green-main'>
 
                 {/* LOGO */}
                 <div className="gap-x-4 p-2 justify-items-center">
                     <Image src={logo} alt="logo" width={55} height={55}/>
-                    <div className="p-4 justify-items-center">
-                        <h1 className="text-white origin-left font-bold text-xl">
-                            SiRSU
-                        </h1>
-                        <h2 className="text-white origin-left font-medium text-base">
-                            admin
-                        </h2>
-                    </div>
+                    <h1 className="text-white origin-left font-semibold text-xl">
+                        SiRSU
+                    </h1>
                 </div>
 
                 {/* BOTONES */}
@@ -70,7 +66,7 @@ function layout() {
                 {/* LOGOUT */}
 
                 <div className="justify-self-center p-10">
-                    <Link to={'../auth'}>
+                    <Link to={'../'}>
                         <Image src={logout} alt="logout" width={45} height={45}/>
                     </Link>
                 </div>

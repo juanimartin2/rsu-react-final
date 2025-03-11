@@ -12,7 +12,7 @@ export default [
         index("./pages/Login.tsx"),
       ]),
 
-    ...prefix("auth", [
+    ...prefix("adminLogin", [
         index("./auth/authAdmin.tsx"),
       ]),
 

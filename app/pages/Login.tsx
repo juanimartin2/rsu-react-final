@@ -22,12 +22,43 @@ function Login() {
           Universitaria
           </h2>
         </div>
-        <Formulario />
+
+        {/* FORMULARIO LOGIN */}
+        <div className="w-full pt-10 pb-5 rounded-lg" id='login'>
+          <label className="block text-gray-700 font-medium mb-1">
+            CUIT / CUIL (Con guión incluido)
+          </label>
+          <input
+            type="string"
+            placeholder="Ingresa tu N° de CUIT/CUIL"
+            className="w-full px-4 py-2 border rounded-md focus:ring focus:ring-blue-300 text-gray-700 placeholder-gray-400"
+          />
+          <label className="block text-gray-700 font-medium mt-4 mb-1">
+            Clave
+          </label>
+          <input
+            type="password"
+            placeholder="Ingresa tu contraseña"
+            className="w-full px-4 py-2 border rounded-md focus:ring focus:ring-blue-300 text-gray-700 placeholder-gray-400"
+          />
+        </div>
+
+        <div className="p-6">
+          <Link to="/inicio">
+            <Button
+              type={"button"}
+              title={"Ingresar"}
+              icon="/logo2-ucc.svg"
+              variant={"btn_green"}
+            />
+          </Link>
+        </div>
+
         <label>
-          <Link to={"/auth"}>
+          <Link to={"/adminLogin"}>
               <Button
                 type={"button"}
-                title={"No tengo usuario"}
+                title={"Ingresar como Encargado"}
                 icon="/user-avatar.svg"
                 variant={"btn_green"}
               />

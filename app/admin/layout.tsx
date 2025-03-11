@@ -70,7 +70,7 @@ function layout() {
                 {/* LOGOUT */}
 
                 <div className="justify-self-center p-10">
-                    <Link to={'../auth'}>
+                    <Link to={'/adminLogin'}>
                         <Image src={logout} alt="logout" width={45} height={45}/>
                     </Link>
                 </div>

@@ -1,7 +1,5 @@
-import { Outlet } from "react-router";
 import type { Route } from "./+types/home";
 import Login from "~/pages/Login";
-
 
 
 

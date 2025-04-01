@@ -40,7 +40,7 @@ function authAdmin() {
         </div>
 
         <div className="p-6">
-          <Link to="/admin/inicio">
+          <Link to="/admin">
             <Button
               type={"button"}
               title={"Ingresar"}

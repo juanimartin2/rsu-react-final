@@ -18,7 +18,6 @@ export default [
 
     route("admin", "./admin/layout.tsx", [
       index("./admin/homeAdmUser.tsx"),
-      route("inicio", "./admin/inicioAdmUser.tsx"),
       route("altaUser", "./admin/altaUser.tsx"),
       route("usuarios", "./admin/abmUsers.tsx"),
       route("informes", "./admin/abmInformes.tsx"),

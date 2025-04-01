@@ -11,7 +11,7 @@ function layout() {
   return (
 
     <div className="ViewPort">
-
+        
         <div className="flex">
 
             {/* SIDEBAR */}
@@ -87,5 +87,6 @@ function layout() {
   </div>
   )
 }
+
 
 export default layout
